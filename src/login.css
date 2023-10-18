@@ -1,0 +1,27 @@
+.container {
+  height: 4em;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border-bottom-style: inset;
+  border-bottom-color: #0000003b;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 3em;
+  }
+}
+
+.link {
+  width: 10%;
+}
+
+.login-info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-container {
+  margin: 10px 0px;
+}
